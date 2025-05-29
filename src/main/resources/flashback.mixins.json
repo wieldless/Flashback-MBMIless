@@ -34,6 +34,7 @@
     "ui.MixinPauseScreen",
     "ui.MixinTitleScreen",
     "visuals.MixinBossHealthOverlay",
+    "visuals.MixinCapeLayer",
     "visuals.MixinClientLevel",
     "visuals.MixinClientLevelData",
     "visuals.MixinEntityRenderDispatcher",
@@ -47,7 +48,8 @@
     "visuals.MixinMouseHandler",
     "visuals.MixinOptions",
     "visuals.MixinParticleEngine",
-    "visuals.MixinPlayer"
+    "visuals.MixinPlayer",
+    "visuals.MixinPlayerRenderer"
   ],
   "injectors": {
     "defaultRequire": 1
@@ -69,7 +71,6 @@
     "compat.voice_chat.MixinVoiceChatClientVoicechat",
     "compat.voice_chat.MixinVoiceChatRenderEvents",
     "compat.voice_chat.MixinVoiceChatSoundManager",
-    "playback.MixinAbstractMinecart",
     "millis.MixinWorldBorderMovingBorderExtent",
     "playback.MixinAbstractMinecart",
     "playback.MixinAttributeInstance",
